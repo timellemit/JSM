@@ -1,0 +1,3 @@
+"rule","# covers positive","# covers negative"
+"{tcp_connection_type=, service_type=all, http_connection_type=generic tunnel or vpn, tcp_os_sig_ttl=, review_status=pass}","0","2"
+"{reason_code=, plugin_number=, service_type=all, mime_type_number=, device_result=not found, device_last_event=, v0.1.5=, tpc=, ht5)=, device_match_result=new_device, device_id_reason_code=(flg, risk_rating=neutral, review_status=pass, http_referer=9ojf9ojghii7id5i0m7!abghbokl7945}","0","0"
