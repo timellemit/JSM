@@ -26,7 +26,7 @@ public class Concept {
         
         public void printConcept() {
                 System.out.println("Concept position:" + position);
-                System.out.println("Concept intent:" + intent);
+                System.out.println("Concept intent:" + intent.desc);
                 System.out.println("Concept parents:" + parents);
         }
          @SuppressWarnings({ "unchecked", "rawtypes" })

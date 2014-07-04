@@ -107,7 +107,71 @@ public class PatternStructure {
                 System.out.println("Concept at position " + index);
                 conceptList.get(index).printConcept();
         }
-
+        
+        @SuppressWarnings({ "unchecked", "rawtypes" })
+		public static void main(String []args) {
+        	PatternStructure ps = new PatternStructure(4, 4);
+//        	Description desc5678 = new Description(new ArrayList(Arrays.asList(
+//              		 Arrays.asList(0.55, 0.71),
+//              		 Arrays.asList(0.62, 0.72),
+//              		Arrays.asList(-0.06, 0.12),
+//              		Arrays.asList(0.63, 0.81)
+//              		 )));
+//        	Description desc567 = new Description(new ArrayList(Arrays.asList(
+//             		 Arrays.asList(0.55, 0.63),
+//             		 Arrays.asList(0.62, 0.72),
+//             		Arrays.asList(-0.06, 0.02),
+//             		Arrays.asList(0.63, 0.81)
+//             		 )));
+//        	Description desc568 = new Description(new ArrayList(Arrays.asList(
+//             		 Arrays.asList(0.56, 0.71),
+//             		 Arrays.asList(0.62, 0.72),
+//             		Arrays.asList(-0.06, 0.12),
+//             		Arrays.asList(0.63, 0.66)
+//             		 )));
+//        	Description desc578 = new Description(new ArrayList(Arrays.asList(
+//            		 Arrays.asList(0.55, 0.71),
+//            		 Arrays.asList(0.62, 0.63),
+//            		Arrays.asList(-0.03, 0.12),
+//            		Arrays.asList(0.63, 0.81)
+//            		 )));
+//        	Description desc67 = new Description(new ArrayList(Arrays.asList(
+//           		 Arrays.asList(0.55, 0.56),
+//           		 Arrays.asList(0.62, 0.72),
+//           		Arrays.asList(-0.06, -0.03),
+//           		Arrays.asList(0.64, 0.81)
+//           		 )));
+        	Description desc5 = new Description(new ArrayList(Arrays.asList(
+              		 Arrays.asList(0.63, 0.63),
+              		 Arrays.asList(0.63, 0.63),
+              		Arrays.asList(0.02, 0.02),
+              		Arrays.asList(0.63, 0.63)
+              		 )));
+        	Description desc6 = new Description(new ArrayList(Arrays.asList(
+             		 Arrays.asList(0.56, 0.56),
+             		 Arrays.asList(0.72, 0.72),
+             		Arrays.asList(-0.06, -0.06),
+             		Arrays.asList(0.64, 0.64)
+             		 )));
+        	Description desc7 = new Description(new ArrayList(Arrays.asList(
+            		 Arrays.asList(0.55, 0.55),
+            		 Arrays.asList(0.62, 0.62),
+            		Arrays.asList(-0.03, -0.03),
+            		Arrays.asList(0.81, 0.81)
+            		 )));
+        	Description desc8 = new Description(new ArrayList(Arrays.asList(
+            		 Arrays.asList(0.71, 0.71),
+            		 Arrays.asList(0.62, 0.62),
+            		Arrays.asList(0.12, 0.12),
+            		Arrays.asList(0.66, 0.66)
+            		 )));
+        	ps.AddIntent(desc5, 0);
+        	ps.AddIntent(desc6, 0);
+        	ps.AddIntent(desc7, 0);
+        	ps.AddIntent(desc8, 0);
+        	ps.printLattice();
+			
+		}
 
        
 }
