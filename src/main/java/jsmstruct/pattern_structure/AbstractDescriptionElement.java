@@ -6,7 +6,10 @@ public abstract class AbstractDescriptionElement {
 	
 	public abstract AbstractDescriptionElement meet(AbstractDescriptionElement descElem2);
 	
-	public abstract void printElement();
+	public abstract String toString();
+	public void printElement(){
+		System.out.println(toString());
+	};
 	
 
 }

@@ -6,13 +6,17 @@ public abstract class AbstractDescription{
 	
 	protected ArrayList<AbstractDescriptionElement> description;
 	
-	public AbstractDescription(ArrayList<AbstractDescriptionElement> description){
-		this.description = description;
+	public AbstractDescription(){
+		description = new ArrayList<AbstractDescriptionElement>();
 	};
 	
 	public abstract AbstractDescription intersect(
 			AbstractDescription description2);
 	
-	public abstract void printDescription();
+	public abstract String toString();
+	
+	public void printDescription() {
+		System.out.println(toString());
+	}
 	
 }
