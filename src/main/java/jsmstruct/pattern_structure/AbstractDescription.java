@@ -15,4 +15,11 @@ public abstract class AbstractDescription{
 	
 	public abstract String toString();
 	
+<<<<<<< HEAD
+=======
+	public void printDescription() {
+		System.out.println(toString());
+	}
+	
+>>>>>>> bbed7f6411cac2807198647b2ce552179ba99841
 }
