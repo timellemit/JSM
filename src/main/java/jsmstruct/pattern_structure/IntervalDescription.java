@@ -41,11 +41,22 @@ public class IntervalDescription extends AbstractDescription{
 				new ArrayList<IntervalDescriptionElement>(Arrays.asList(interval1, interval2)));
 		IntervalDescription desc2 = new IntervalDescription(
 				new ArrayList<IntervalDescriptionElement>(Arrays.asList(interval3, interval4)));
+<<<<<<< HEAD
 		System.out.println(desc1);
 		System.out.println(desc2);
 		System.out.println(desc1.intersect(desc2));
 		desc2.printDescription();
 		desc1.intersect(desc2).printDescription();
+=======
+<<<<<<< HEAD
+		System.out.println(desc1);
+		System.out.println(desc2);
+		System.out.println(desc1.intersect(desc2));
+=======
+		desc2.printDescription();
+		desc1.intersect(desc2).printDescription();
+>>>>>>> bbed7f6411cac2807198647b2ce552179ba99841
+>>>>>>> fc87174bcc1a43924312d9e42cdb860ae75ff4f4
 	}
 
 	
